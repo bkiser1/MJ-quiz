@@ -1,0 +1,305 @@
+
+.main-header{
+
+    font-size: 120px;
+    letter-spacing: 140px;
+    text-shadow: 11px 10px 16px rgb(206, 18, 18);
+    font-weight: 20px;
+     text-align: center;
+    }
+    
+    .align-me{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+    } 
+    
+    .click-to-start{
+        width: 200px;
+      box-shadow: 6px 6px 10px black;
+      background: rgb(226, 15, 15);
+    }
+    
+    .sphere-like{
+    
+    display:block;
+    height:500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 5px 10px 11px;
+    font-size: 70px;
+    text-shadow: 14px 12px 12px;
+    background-image: url(./23.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+    
+
+body{
+    background-image: url(./wing.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+  
+   
+}   
+
+
+#container {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px 5px 13px;
+    box-shadow: 13px 13px 10px black;
+   
+}
+
+
+.quiz-subheader{
+    border: 1px solid black;
+    height: 100px;
+    font-size: 80px;
+    text-shadow:13px 11px 11px;
+    margin-top: 0px;
+    border-radius:  10px 5px 13px;   
+    background-image: url(./mja.jpeg);  
+    text-align: center;
+
+
+}
+
+.js-question {
+    word-wrap: break-word;
+    text-shadow: 11px 10px 16px rgb(206, 18, 18);
+    color: darkgray;
+
+}
+
+
+
+.question-box{
+
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+
+.sub-ques{
+
+width: 600px; 
+text-align: center;
+margin-top: 30px;
+height: 30px;
+font-size: 20px;
+font-family: sans-serif;
+background-color: darkgray;
+}
+.sub-ques:hover {
+    cursor: pointer;
+    color:rgb(85, 74, 74);
+
+
+}
+
+
+
+p{
+
+    text-shadow: 11px 10px 16px rgb(206, 18, 18);
+ font-size: 20px;
+ color: darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    box-shadow: 10px 18px rgba(43, 39, 39, 0.533);
+}
+
+.headline {
+    width: 500px;
+    height:100;
+    border: 1px solid black;
+    border-radius: 0 15px 0 15px;
+    
+}
+
+.form {
+    margin-top: 50px;
+    
+}
+
+a {
+    color: black;
+}
+ 
+h1{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 12px 11px 4px;
+    
+
+}
+
+body {
+    background-image: url(./airness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-entry-container {
+   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
+   
+}
+
+#entry-button {
+    border-radius: 25px;
+    width: 130px;
+    height: 80px;
+    box-shadow: 0px 10px 15px;
+    margin-top: 20px;
+    background-color: rgba(105, 105, 105, 0.466);
+    color: red;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    
+    
+}
+
+ .form, #bttn0, #bttn1, #bttn2, #bttn3 {
+    width: 500px;
+    height: 60px;
+    background-color: rgb(131, 24, 24);
+    border-radius:  5px 10px 10px  ;
+   
+}
+#question {
+    word-wrap: break-word;
+}
+
+.form, #bttn0, #bttn1, #bttn2, #bttn3:hover{
+    cursor: pointer;
+
+}
+
+ */
