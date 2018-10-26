@@ -1,7 +1,7 @@
-'use strict;'
+// 'use strict;'
 
 
-var i = 0;
+let i = 0;
 let score = 0;
 
 
@@ -47,7 +47,9 @@ $('.click-to-start').hover(function () {
     /////this reveals quesArr once the user clicks the jersey 
     $('.click-to-start').on('click', function () {
         $('#container').slideDown(7000).delay(500);
+
         event.preventDefault();
+        ////appends inputs with question choices and the current question
         $('.js-question').text(quesArr[i].question);
         $('#qA0').text(quesArr[i].choices[0]);
         $('#qA1').text(quesArr[i].choices[1]);
@@ -59,43 +61,74 @@ $('.click-to-start').hover(function () {
 
 })
 
-$('#container').hide();
-$('iframe:first').hide();
-$('iframe#yay').hide();
 
+
+$('#container').hide();
+$('.results').hide();
+$('.iframe').hide();
+$('.count').hide();
+
+//////defines questions and answers binds we click event
 function handleUserAnswer() {
     $(document).on('click', '.sub-ques', function () {
         var solution = $('input[name="select-1"]:checked').val();
-        console.log('i ' + i);
         const answer = quesArr[i].answer;
         let choices = quesArr[i].choices;
 
         if (choices === answer) {
-            $('iframe#yay').show(800, function () {
-                $(this).hide(10000)
-            });
 
+            score++
+
+            console.log('blahh');
         } else {
-            $('iframe:first').show(800, function () {
-                $(this).hide(10000);
+            console.log('yooooo');
 
 
-            })
+        } if (!$('input[name="select-1"]').is(':checked')) {
+            alert(" You haven't made a selection ");
+            return undefined;
         }
+        i++;
+
+        if (i < 5) {
+
+            $('.js-question').text(quesArr[i].question);
+            $('#qA0').text(quesArr[i].choices[0]);
+            $('#qA1').text(quesArr[i].choices[1]);
+            $('#qA2').text(quesArr[i].choices[2]);
+            $('#qA3').text(quesArr[i].choices[3]);
+            $('.choice').show('slow');
+            $('input[name="select-1"]').prop('checked', false);
+        }
+
     })
 }
 
-function handleUserClick() {
-    
+function handleUserClicks() {
+
+    let counter = 0;
+    $('.count').text(counter);
+    $('.sub-ques').click(function () {
+        $('.count').show();
+        counter += 1;
+        $('.count').text(counter + ' of 5');
+
+        if(counter == 5){
+            $('.iframe').show();
+            $('#container').hide();
+            $('.results').show().html('Congratulations your score is ' + score);
 
 
-
+        }
+    })
 }
 
 function start() {
 
     handleUserAnswer();
-    handleUserClick();
+    handleUserClicks();
 }
 
 $(start)
+
+
