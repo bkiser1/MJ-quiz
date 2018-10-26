@@ -1,5 +1,5 @@
 
-.main-header{
+.main-header  {
 
     font-size: 120px;
     letter-spacing: 140px;
@@ -8,20 +8,20 @@
      text-align: center;
     }
     
-    .align-me{
+    .align-me {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     margin-top: 100px;
     } 
     
-    .click-to-start{
+    .click-to-start {
         width: 200px;
       box-shadow: 6px 6px 10px black;
       background: rgb(226, 15, 15);
     }
     
-    .sphere-like{
+    .sphere-like {
     
     display:block;
     height:500px;
@@ -39,7 +39,7 @@
     }
     
 
-body{
+body {
     background-image: url(./wing.jpg);
     background-repeat: no-repeat;
    background-size: cover;
@@ -60,7 +60,7 @@ body{
 }
 
 
-.quiz-subheader{
+.quiz-subheader {
     border: 1px solid black;
     height: 100px;
     font-size: 80px;
@@ -77,19 +77,21 @@ body{
     word-wrap: break-word;
     text-shadow: 11px 10px 16px rgb(206, 18, 18);
     color: darkgray;
+    font-size: 25px;    
+    text-align: center;
 
 }
 
 
 
-.question-box{
+.question-box {
 
     margin-top: 100px;
     padding-top: 100px;
 }
 
 
-.sub-ques{
+.sub-ques {
 
 width: 600px; 
 text-align: center;
@@ -99,6 +101,8 @@ font-size: 20px;
 font-family: sans-serif;
 background-color: darkgray;
 }
+
+
 .sub-ques:hover {
     cursor: pointer;
     color:rgb(85, 74, 74);
@@ -110,18 +114,30 @@ background-color: darkgray;
 
 p{
 
-    text-shadow: 11px 10px 16px rgb(206, 18, 18);
+text-shadow: 11px 10px 16px rgb(206, 18, 18);
  font-size: 20px;
  color: darkgrey;
 }
 
 
+.iframe {
 
+margin-left: auto;
+margin-right: auto;
+text-align: center;
 
+}
+.count {
 
+    color: rgb(206, 18, 18);
+    text-align: center;
+}
 
+.results {
+    text-align: center;
+    text-shadow: 11px 10px 16px rgb(206, 18, 18);
 
-
+}
 
 
 
