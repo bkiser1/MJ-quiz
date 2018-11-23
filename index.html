@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Quiz App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
@@ -13,55 +14,28 @@
 </head>
 
 <body>
-    <header class="main-header">G.O.A.T</header>
-
+    <header role="banner">
+        <h1 class="main-header">G.O.A.T</h1>
+    </header>
 
     <h1 class="results"></h1>
+    <h3 class="replay"><a href="./index.html">Retry</a></h3>
+
     <div class="align-me">
-        <button class="click-to-start"></button>
+        <h1>MJ QUIZ</h1>
+        <button class="click-to-start">PLAY</button>
+        <h1></h1>
     </div>
+
     <div class="iframe">
-        <iframe src="https://giphy.com/embed/l46CqLVMWzaJUFPLW" width="880" height="568" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a
+        <iframe src="https://giphy.com/embed/l46CqLVMWzaJUFPLW" width="480" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a
                 href="https://giphy.com/gifs/l46CqLVMWzaJUFPLW"></a></p>
     </div>
 
-    <main id="container">
-
-        <h1 class="quiz-subheader">Quiz</h1>
-
-        <h1 class="js-question"></h1>
-
-
-        <form class=" js-question-box">
-            <input type="radio" name="select-1" class="choice" value="0" checked><span><p id="qA0"></p></span>
-
-            <br>
-            <input type="radio" name="select-1" class="choice" value="1"><span><p id="qA1"></p></span>
-
-            <br>
-            <input type="radio" name="select-1" class="choice" value="2"><span> <p id="qA2"></p></span>
-
-            <br>
-            <input type="radio" name="select-1" class="choice" value="3"><span><p id="qA3"></p></span>
-
-
-            <p class="count"><span>0</span></p>
-
-
-            <div class="sub-ques">Next</div>
-
-            <footer>
-
-            </footer>
-
-
-
-
+    <main id="container" role="main">
     </main>
 
-
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./index.js"></script>
 </body>
 
