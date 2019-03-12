@@ -2,7 +2,7 @@
 
 
 .main-header {
-    font-size: 130px;
+    font-size: 100px;
     letter-spacing: 160px;
     text-shadow: 2px 3px 12px rgb(206, 18, 18);
      text-align: center;
@@ -34,7 +34,7 @@
 }
       
 body {
-      background: url(./wing.jpg) no-repeat fixed;
+      background: url(./img/wing.jpg) no-repeat fixed;
       background-size: cover;
       
 }    
