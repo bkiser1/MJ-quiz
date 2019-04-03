@@ -142,7 +142,6 @@ function handleRightAnswer() {
 
 function handleFeedbackSubmits() {
     $('#container').on('click', '.next-question', function () {
-        console.log('hiii');
         if (i == 5) {
             $('.iframe').show();
             $('#container').hide();
@@ -160,6 +159,7 @@ function questionCount() {
     currentQuestion++;
 }
 
+    
 function scoreCount() {
     score++;
 }
